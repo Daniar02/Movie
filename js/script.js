@@ -84,11 +84,11 @@ document.addEventListener('DOMContentLoaded', () => {
     //     item.remove();
     // });
 
-    const deleteAdv = (arr) => {
-        arr.forEach(item => { // Удалить реклами №2
-            item.remove();
-        });
-    };
+    // const deleteAdv = (arr) => {
+    //     arr.forEach(item => { // Удалить реклами №2
+    //         item.remove();
+    //     });
+    // };
 
     const makeChanges = () => {
         genre.textContent = "Драма"; // Изменил жанр фильма
@@ -126,6 +126,3 @@ document.addEventListener('DOMContentLoaded', () => {
     makeChanges();
     createMoveList(movieDB.movies, movieList);
 });
-
-
-
